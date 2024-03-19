@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            height: 40px;
+            margin-bottom: 20px;
+        }
+
+        /* Navigation styling */
+        nav {
+            background-color: #111;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Hero section styling */
+        .hero-section {
+            background-image: url('netflix_hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Movie/series section styling */
+        .movies-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .movie-item {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .movie-item img {
+            width: 200px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .movie-item img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="netflix_logo.png" alt="Netflix Logo">
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Netflix</h1>
+            <p>Watch unlimited movies and TV shows anytime, anywhere. Cancel anytime.</p>
+        </div>
+    </section>
+
+    <!-- Movie/series Section -->
+    <section class="movies-section">
+        <!-- Sample Movie/series Item -->
+        <div class="movie-item">
+            <img src="movie1.jpg" alt="Movie 1">
+        </div>
+
+        <!-- Sample Movie/series Item -->
+        <div class="movie-item">
+            <img src="movie2.jpg" alt="Movie 2">
+        </div>
+
+        <!-- Sample Movie/series Item -->
+        <div class="movie-item">
+            <img src="movie3.jpg" alt="Movie 3">
+        </div>
+
+        <!-- Add more movie/series items as needed -->
+    </section>
+</body>
+</html>
