@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Logo styling */
+        .logo {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .logo img {
+            height: 100px;
+        }
+
+        /* Search form styling */
+        .search-form {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .search-input {
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+
+    <!-- Search form -->
+    <form action="https://www.google.com/search" method="GET" class="search-form">
+        <input type="text" name="q" class="search-input" placeholder="Search Google...">
+        <button type="submit" class="search-button">Search</button>
+    </form>
+</body>
+</html>
